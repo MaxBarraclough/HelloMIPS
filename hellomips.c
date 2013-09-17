@@ -25,9 +25,10 @@ void print80ints(const int* const ptr) {
 // unsigned int add99(unsigned int arg) {
 //     return arg + ((unsigned int)99);
 // }
+//
+//
+// void doNothing() { }
 
-
-void doNothing() { }
 
 #define NOP 0x00200825
 
@@ -75,8 +76,6 @@ int main() {
 //  printf("sizeof (short) is : %d\n", sizeof(short) );
 
 //  printf( "%d\n", quadruplePlusThree(10) );
-
-    doNothing();
 
     runOurDoNothingMachineCode();
 
